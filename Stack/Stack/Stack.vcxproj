@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="radixTrans.h" />
     <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
