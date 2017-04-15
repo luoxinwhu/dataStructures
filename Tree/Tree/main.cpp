@@ -26,6 +26,10 @@ int main(void)
 	node3->index = 3;
 	node3->data = 90;
 
+	Node *node4 = new Node();
+	node3->index = 3;
+	node3->data = 60;
+
 	tree1->addNode(0, 0, node1);
 	tree1->addNode(0, 1, node2);
 	tree1->addNode(1, 0, node3);
