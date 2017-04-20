@@ -27,6 +27,9 @@
     <ClInclude Include="shell_sort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="quick_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

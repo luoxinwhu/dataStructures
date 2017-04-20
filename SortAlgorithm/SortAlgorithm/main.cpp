@@ -4,6 +4,8 @@
 #include "insert_sort.h"
 #include "shell_sort.h"
 #include "merge_sort.h"
+#include "quick_sort.h"
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -20,6 +22,7 @@ int main(void)
 	insert_sort<string> insertObj;
 	shell_sort<string> shellObj;
 	merge_sort<string> mergeObj;
+	quick_sort<string> quickObj;
 
 	cout << "please input a string, end with char '#':" << endl;
 	while (cin >> x) {
@@ -40,6 +43,9 @@ int main(void)
 
 	cout << "#merge sort method result" << endl;
 	mergeObj.main(str1, 1);
+
+	cout << "#quick sort method result" << endl;
+	quickObj.main(str1,1);
 
 	return 0;
 }

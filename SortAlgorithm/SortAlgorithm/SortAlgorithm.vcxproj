@@ -143,6 +143,7 @@
   <ItemGroup>
     <ClInclude Include="insert_sort.h" />
     <ClInclude Include="merge_sort.h" />
+    <ClInclude Include="quick_sort.h" />
     <ClInclude Include="select_sort.h" />
     <ClInclude Include="shell_sort.h" />
   </ItemGroup>
