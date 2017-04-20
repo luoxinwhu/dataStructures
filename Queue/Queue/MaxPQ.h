@@ -1,5 +1,9 @@
 #pragma once
 
+#include <iostream>
+using namespace std;
+
+
 template <typename T>
 class MaxPQ
 {
@@ -46,7 +50,7 @@ T MaxPQ<T>::delMaxElem()
 {
 	T maxElem = pq[1];		//取出对大元素
 	swap(pq[1],pq[N--]);	//最后一个元素与最大元素交换位置
-	pq[N + 1] = null;		//删除最大元素
+	pq[N + 1] = NULL;		//删除最大元素
 	sink(pq, 1);			//下沉刚才放到顶端的元素
 	return maxElem;
 }
