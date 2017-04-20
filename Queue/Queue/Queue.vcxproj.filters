@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CircleQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\35943\Desktop\Queue\Queue\Customer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxPQ.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,6 +30,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Customer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxPQ.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

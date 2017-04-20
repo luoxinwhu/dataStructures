@@ -143,11 +143,12 @@
   <ItemGroup>
     <ClInclude Include="CircleQueue.h" />
     <ClInclude Include="Customer.h" />
+    <ClInclude Include="MaxPQ.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\35943\Desktop\Queue\Queue\Customer.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
+    <ClCompile Include="MaxPQ.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
