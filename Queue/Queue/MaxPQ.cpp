@@ -5,13 +5,18 @@ using namespace std;
 
 int main()
 {
-	MaxPQ<char> maxpq1(8);
-	maxpq1.Insert('a');
-	maxpq1.Insert('b');
-	maxpq1.Insert('c');
-	maxpq1.Insert('d');
-	maxpq1.Insert('e');
-	maxpq1.Insert('f');
-	maxpq1.MaxPQtraverse();
+	string str1;
+	cout << "ÇëÊäÈë8¸ö×Ö·ûÐòÁÐ" << endl;
+	cin >> str1;
+	
+	
+	MaxPQ<char> maxpq1(str1.size(), &str1[0]);
+	MaxPQ<char> maxpq2(str1.size(), &str1[0]);
+
+
+//----------------------------//
+	maxpq2.MaxPQtraverse();
+	maxpq2.heap_Sort();
+	maxpq2.MaxPQtraverse();
 	return 0;
 }

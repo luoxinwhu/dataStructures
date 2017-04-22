@@ -148,6 +148,7 @@
     <ClInclude Include="shell_sort.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="heap_sort.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
