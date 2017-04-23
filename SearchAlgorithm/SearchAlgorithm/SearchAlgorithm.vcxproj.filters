@@ -27,6 +27,9 @@
     <ClInclude Include="BST.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="BST_Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SequentialSearchST.cpp">

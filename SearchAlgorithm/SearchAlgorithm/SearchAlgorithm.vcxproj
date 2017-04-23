@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="BinarySearchST.h" />
     <ClInclude Include="BST.h" />
+    <ClInclude Include="BST_Node.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="SequentialSearchST.h" />
   </ItemGroup>
