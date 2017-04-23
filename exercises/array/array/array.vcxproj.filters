@@ -21,5 +21,8 @@
     <ClCompile Include="chessFlip.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="pathDesign.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

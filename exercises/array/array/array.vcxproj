@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="chessFlip.cpp" />
     <ClCompile Include="findMaxDValue.cpp" />
+    <ClCompile Include="pathDesign.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

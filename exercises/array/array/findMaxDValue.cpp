@@ -31,14 +31,14 @@ int getDis(vector<int> A, int n)
 	return res;
 }
 
-int main()
-{
-	vector<int> A; 
-	int data[] = { 10,5,3,2,89 };
-	for (int i = 0; i < 5; i++)
-	{
-		A.push_back(data[i]);
-	}
-	cout << getDis(A, A.size()) << endl;
-	return 0;
-}
+//int main()
+//{
+//	vector<int> A; 
+//	int data[] = { 10,5,3,2,89 };
+//	for (int i = 0; i < 5; i++)
+//	{
+//		A.push_back(data[i]);
+//	}
+//	cout << getDis(A, A.size()) << endl;
+//	return 0;
+//}
