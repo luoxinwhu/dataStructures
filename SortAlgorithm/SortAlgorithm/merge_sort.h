@@ -71,7 +71,7 @@ void merge_sort<T>::merge(T &a, int low, int mid, int high)
 	//思路二：
 	i = low;
 	j = mid + 1;
-	for (int k = low; k <= high; k++) aux[k] = a[k];
+	for (int k = low; k <= high; k++) aux[k] = a[k];	//拷贝a[]到辅助数组aux[]中
 	for (int k = low; k <= high; k++)
 	{
 		if (i > mid)				a[k] = aux[j++];	//左侧用尽，取右侧元素
